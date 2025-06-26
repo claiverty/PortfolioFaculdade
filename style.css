@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+/* Definindo largura e tirando margens do body */
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(90deg, #ede0fc, #ecf9ff);
+}
+/* Estilizando o header */
+header {
+  padding: 2.5rem;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: center;
+}
+header .navbar a {
+  text-decoration: none;
+  color: #6f34fe;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 2.2rem;
+}
+/* Efeito ao passar o mouse em cima dos links */
+header .navbar a:hover {
+  color: #ffd439;
+  transition: 0.2s all;
+}
+
+/* Estilizando o main */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container #about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 700px;
+}
+
+.container #about .about-me {
+  width: 50%;
+  padding: 2rem;
+}
+
+.container #about .about-me h1 {
+  font-size: 50px;
+  color: #6f34fe;
+}
+
+.container #about .about-me p {
+  font-size: 18px;
+  color: #2d1863;
+}
+
+.container #academic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.container #academic h1 {
+  font-size: 50px;
+  color: #6f34fe;
+}
+
+.container #academic .courses {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.container #academic .courses .course {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container #academic .courses .course h3 {
+  font-size: 25px;
+  color: #2d1863;
+}
+
+.container #academic .courses .course p {
+  font-size: 18px;
+  color: #2d1863;
+}
+
+.container #portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.container #portfolio h1 {
+  font-size: 50px;
+  color: #6f34fe;
+}
+.container #portfolio p {
+  font-size: 22px;
+  color: #2d1863;
+}
+
+.container #portfolio .projects-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+}
+
+.container #portfolio .projects-container .card-projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container #portfolio .projects-container .card-projects .list-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.container #portfolio .projects-container .card-projects .list-card h4 {
+  font-size: 25px;
+  color: #2d1863;
+}
+
+.container #portfolio .projects-container .card-projects .list-card i {
+  font-size: 30px;
+  color: #6f34fe;
+  padding: 0 0.5rem;
+}
+
+.container #portfolio .projects-container .card-projects .list-card i:hover {
+  color: #ffd439;
+  transition: 0.2s all;
+}
+
+.container #contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 3rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container #contact h1 {
+  font-size: 50px;
+  color: #6f34fe;
+  margin: 0;
+}
+
+.container #contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding: 2rem 0;
+}
+
+.container #contact form label {
+  padding: 0.2rem 0;
+  font-size: 18px;
+  color: #2d1863;
+  margin-top: 0.5rem;
+}
+.container #contact form input {
+  padding: 0.8rem;
+  border-radius: 15px;
+  border: 1px solid #6f34fe;
+}
+
+.container #contact form textarea {
+  padding: 0.8rem;
+  border-radius: 19px;
+  border: 1px solid #6f34fe;
+}
+
+.container #contact form button {
+  margin-top: 2rem;
+  padding: 0.8rem;
+  border-radius: 15px;
+  border: solid 1px #6f34fe;
+  background-color: #6f34fe;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.container #contact form button:hover {
+  background-color: #ffd439;
+  border: #6f34fe 1px solid;
+  color: #6f34fe;
+  transition: 0.2s all;
+}
+
+footer {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2d1863;
+}
+
+footer a {
+  text-decoration: none;
+  color: #6f34fe;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ffd439;
+  transition: 0.2s all;
+}
