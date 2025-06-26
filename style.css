@@ -37,6 +37,7 @@ header .navbar a:hover {
   align-items: center;
 }
 
+/* Estilizando o sobre mim */
 .container #about {
   display: flex;
   flex-direction: row;
@@ -60,6 +61,7 @@ header .navbar a:hover {
   color: #2d1863;
 }
 
+/* Estilizando a Educação */
 .container #academic {
   display: flex;
   flex-direction: column;
@@ -95,6 +97,7 @@ header .navbar a:hover {
   color: #2d1863;
 }
 
+/* Estilizando o Portfólio */
 .container #portfolio {
   display: flex;
   flex-direction: column;
@@ -150,6 +153,7 @@ header .navbar a:hover {
   transition: 0.2s all;
 }
 
+/* Estilizando os Contatos */
 .container #contact {
   display: flex;
   flex-direction: column;
@@ -215,6 +219,7 @@ header .navbar a:hover {
   transition: 0.2s all;
 }
 
+/* Estilizando o footer */
 footer {
   font-size: 18px;
   display: flex;
